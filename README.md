@@ -12,7 +12,7 @@ If you set the parameter ```INSTALL_NGINX``` to ```True``` you should also confi
 ##### 1. Download the script:
 ```
 sudo wget https://raw.githubusercontent.com/ShaheenHossain/install_script_19/19.0/odoo_install_cmt_1966.sh
-
+```
 sudo chmod +x odoo_install_cmt_1966.sh
 ```
 sudo ./odoo_install_cmt_1966.sh
