@@ -3,7 +3,7 @@ OE_HOME="/$OE_USER"
 OE_HOME_EXT="/$OE_USER/${OE_USER}-server"
 INSTALL_WKHTMLTOPDF="True"
 OE_PORT="8066"
-OE_VERSION="19.0"
+OE_VERSION="master"
 IS_ENTERPRISE="False"
 INSTALL_POSTGRESQL_SIXTEEN="True"
 INSTALL_NGINX="False"
@@ -112,7 +112,7 @@ sudo chown $OE_USER:$OE_USER /var/log/$OE_USER
 # Install ODOO
 #--------------------------------------------------
 echo -e "\n==== Installing ODOO Server ===="
-sudo git clone --depth 1 --branch $OE_VERSION https://www.github.com/odoo/odoo $OE_HOME_EXT/
+sudo git clone --depth 1 --branch $OE_VERSION https://www.github.com/ShaheenHossain/odoo_ent_19_6k $OE_HOME_EXT/
 
 if [ $IS_ENTERPRISE = "True" ]; then
     # Odoo Enterprise install!
