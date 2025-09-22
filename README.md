@@ -11,11 +11,11 @@ If you set the parameter ```INSTALL_NGINX``` to ```True``` you should also confi
 
 ##### 1. Download the script:
 ```
-sudo wget https://raw.githubusercontent.com/ShaheenHossain/install_script_19/install_script_ent_1965/odoo_install_cmt_1965.sh
+sudo wget https://raw.githubusercontent.com/ShaheenHossain/install_script_19/install_script_ent_1965/odoo_install_cmt_1964.sh
 ```
-sudo chmod +x odoo_install_cmt_1965.sh
+sudo chmod +x odoo_install_cmt_1964.sh
 ```
-sudo ./odoo_install_cmt_1965.sh
+sudo ./odoo_install_cmt_1964.sh
 ```
 
 ## Where should I host Odoo?
